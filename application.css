@@ -1,0 +1,12 @@
+p{
+	color:red;
+	text-align: center;
+}
+.blog-header{
+	color:red;
+	text-align: center;
+}
+/* precedance css targets*/
+#fullname > label{
+	color:blue;	
+}
