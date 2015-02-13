@@ -59,6 +59,10 @@ a{
 	width: 50%;
 	height: 100%;
 }
+#featuredtext{
+	display: inline-block;
+	font-size: 35px;
+}
 .box{
 	border: 1px solid black;
 	width: 23%;
@@ -90,6 +94,7 @@ a{
 	display: inline-block;
 	/*margin-left: 20;*/
 	text-align: left;
+	font-size: 20px;
 	font-family: 'droid serif', serif;
 }
 .comment{
@@ -117,6 +122,7 @@ a{
 }
 .recent{
 	display: inline-block;
+	font-size: 20px;
 	float: left;
 	text-align: left;
 }
@@ -136,9 +142,98 @@ a{
 	display: block;	
 	padding: 25px 0px;
 	border-bottom: 2px solid rgba(0,0,0,0.1);
+	width: 100%;
 }
 .rightsection{
 	display: inline-block;
 	width: 50%;
 
+}
+
+@media (max-width: 680px) and (min-width: 479px){
+	#leftemptybox{
+	width: 20%;
+	}
+	.box {
+	width: 35%;
+	margin-bottom: 10;
+	margin-left: 160;
+	}
+	#mainimage img {
+	height: 250;
+	width: 450;
+	}
+	.angularimage img {
+		display: none;
+	}
+	#featuredtext{
+		width: 140%;
+		font-size: 25px;
+	}
+	.author{
+		width: 100%;
+	}
+	.comment{
+		width: 130%;
+	}
+	.firstday{
+		width: 130%;
+		font-size: 17px;
+	}
+	.box1{
+		padding: 0px 0px;
+		height: 38%;
+		width: 130%;
+	}
+	.recent{
+		font-size: 20px;
+	}
+	.anglurday{
+		width: 100%;
+	}
+}
+
+@media (max-width: 768px) and (min-width: 681px){
+	#leftemptybox{
+		width: 18%;
+	}
+	.box {
+	width: 35%;
+	margin-bottom: 10;
+	margin-left: 180;
+	}
+	#mainimage img {
+	height: 300;
+	width: 500;
+	}
+	.angularimage img {
+		width: 27%;
+	margin-top: -130;
+	margin-left: 350;
+	}
+	#featuredtext{
+		width: 140%;
+		font-size: 25px;
+	}
+	.author{
+		width: 100%;
+	}
+	.comment{
+		width: 130%;
+	}
+	.firstday{
+		width: 130%;
+		font-size: 17px;
+	}
+	.box1{
+		padding: 5px 0px;
+		height: 38%;
+		width: 130%;
+	}
+	.recent{
+		font-size: 20px;
+	}
+	.anglurday{
+		width: 70%;
+	}
 }
