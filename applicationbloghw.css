@@ -24,11 +24,12 @@
 }
 #postsign{
 	display: inline-block;
-	float: right;
+	/*float: right;*/
 	margin-top: 25px;
 	font-size: 18px;
 	padding-right: 20px;
 	width: 20%;
+	margin-left: 56%;
 }
 
 #post{
@@ -55,7 +56,7 @@ a{
 #remainingbody{
 	display: inline-block;
 	position: absolute;
-	margin-top: 70px;
+	margin-top: 80px;
 	text-align: left;
 	width: 50%;
 	height: 100%;
@@ -136,8 +137,8 @@ a{
 }
 .angularimage > img {
 	display: inline-block;
-	width: 143;
-	margin-top: -106;
+	width: 21%;
+	margin-top: -98;
 	margin-left: 42;
 }
 .box1{
@@ -153,9 +154,15 @@ a{
 }
 
 @media (max-width: 680px) and (min-width: 479px){
+	#postsign{
+		margin-top: 18px;
+		float: right;
+		width: 30%;
+		margin-left: 0%;
+	}
 	#sign{
 		font-size: 15px;
-		width: 100%;
+		width: 50%;
 		height: 100%;
 	}
 	#post{
@@ -165,7 +172,7 @@ a{
 	width: 20%;
 	}
 	.box {
-	width: 35%;
+	width: 50%;
 	margin-bottom: 10;
 	margin-left: 160;
 	}
@@ -204,6 +211,12 @@ a{
 }
 
 @media (max-width: 768px) and (min-width: 681px){
+	#postsign{
+		margin-top: 18px;
+		float: right;
+		width: 30%;
+		margin-left: 0%;
+	}
 	#post{
 		display: none;
 	}
@@ -251,8 +264,14 @@ a{
 		width: 70%;
 	}
 }
-/*
-@media (max-width: 1440px) and (min-width: 769px){
+
+@media (max-width: 1175px) and (min-width: 769px){
+	#postsign{
+		float: right;
+		width: 23%;
+		margin-left: 0%;
+		margin-top: 18px;
+	}
 	#leftemptybox{
 		width: 20%;
 	}
@@ -266,8 +285,8 @@ a{
 	width: 600;
 	}
 	.angularimage img {
-		width: 30%;
-	margin-top: -150;
+		width: 20%;
+	margin-top: -100;
 	margin-left: 440;
 	}
 	#featuredtext{
@@ -279,10 +298,10 @@ a{
 	}
 	
 	.comment{
-		width: 130%;
+		width: 90%;
 	}
 	.firstday{
-		width: 150%;
+		width: 100%;
 		font-size: 20px;
 	}
 	.box1{
@@ -294,7 +313,7 @@ a{
 		font-size: 20px;
 	}
 	.anglurday{
-		width: 85%;
+		width: 70%;
 	}
 }
-*/
+
