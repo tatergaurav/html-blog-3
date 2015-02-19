@@ -1,0 +1,169 @@
+<! DOCTYPE Html>
+<html>
+      <head>
+			<title>PS</title>
+			<meta name="viewport" content="width=device-width, initial-scale=1">
+			<link rel="stylesheet" type="text/css" href="applicationbloghw.css">
+			<!--<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=droid+sans">-->
+
+
+	  </head>
+	<body>
+		<header id="headerrr">
+			<div id="PStitle"><h1>PS</h1></div>
+			<div id="postsign">
+				<div id="post">
+						<a href="writeapost.html" target="_blank">Write a Post</a>
+				</div>
+				<div id="sign">
+						<a href="SigninSignUp.html" target="_blank" style = "color:red">Sign in/Sign up</a>
+				</div>
+			</div>
+		</header>
+<div id="leftemptybox"></div>
+<div id="remainingbody">
+	
+		<div id="mainimage">
+			<img src="ps-imagehw.jpg">
+		</div>
+		<div id="featuredtext">
+		<p><a href="https://product-school-blog.herokuapp.com/posts/5"><b> My first day teaching at Product School!</b></a><p>
+		</div>
+	<div class="author">
+		<div class="authorImage">
+			<img src="casey-img.jpg">
+		</div>
+		<div class="authorName">
+			<p><b>By: Casey Wilson</b></p>
+		</div>
+	</div>
+	<div style="clear:both;"></div>
+
+	<div class="firstday">
+		<p><b> Today was an awesome day! Working with Sofia and Carlos over the past weeks getting ready has been a blast...</b><p>
+	</div>
+	<div class="comment">
+		<div class="learningimage">
+			<img src="life-learning.jpeg">
+		</div>
+		<div class="learning">
+			<p>Category:Life Learning. By:Casey Wilson</p>
+		</div>
+		<div class="dateth">
+			<p>Feb 3,2015</p>
+		</div>
+	</div>
+		<div style="clear:both;"></div>
+		<div class="box">
+			<p>MOST RECENT</p>
+		</div>
+		<div class="box1">
+		<div class="recent">
+			<p><a href="https://product-school-blog.herokuapp.com/posts/5"><b> Integrating Angular into the Rise.us website </b></a><p>
+		</div>
+		<div style="clear:both;"></div>
+		<div class ="right section">
+			<div class="anglurday">
+				<p> Angular is an awesome framework that creates standardization, clarity, and reusability in an app. I'm really excited to be integrating it.....<p>
+			</div>
+			<div class="comment">
+				<div class="learningimage">
+					<img src="life-learning.jpeg">
+				</div>
+				<div class="learning">
+					<p>Category:Life Learning. By:Casey Wilson</p>
+				</div>
+				<div class="dateth">
+					<p>Feb 3,2015</p>
+				</div>
+			</div>
+		</div>
+			<div class="angularimage">
+				<img src="angularjs.jpg">
+			</div>
+		
+		</div>
+		<div style="clear:both;"></div>
+		<!-- part2 -->
+		<div class="box1">
+		<div class="recent">
+			<p style="font-size:20px;"><a href="https://product-school-blog.herokuapp.com/posts/5"><b> Integrating Angular into the Rise.us website </b></a><p>
+		</div>
+		<div style="clear:both;"></div>
+		<div class ="right section">
+			<div class="anglurday">
+				<p> Angular is an awesome framework that creates standardization, clarity, and reusability in an app. I'm really excited to be integrating it.....<p>
+			</div>
+			<div class="comment">
+				<div class="learningimage">
+					<img src="life-learning.jpeg">
+				</div>
+				<div class="learning">
+					<p>Category:Life Learning. By:Casey Wilson</p>
+				</div>
+				<div class="dateth">
+					<p>Feb 3,2015</p>
+				</div>
+			</div>
+		</div>
+			<div class="angularimage">
+				<img src="angularjs.jpg">
+			</div>
+		</div>
+	<div style="clear:both;"></div>
+		<!-- part3 -->
+		<div class="box1">
+		<div class="recent">
+			<p style="font-size:20px;"><a href="https://product-school-blog.herokuapp.com/posts/5"><b> Integrating Angular into the Rise.us website </b></a><p>
+		</div>
+		<div style="clear:both;"></div>
+		<div class ="right section">
+			<div class="anglurday">
+				<p> Angular is an awesome framework that creates standardization, clarity, and reusability in an app. I'm really excited to be integrating it.....<p>
+			</div>
+			<div class="comment">
+				<div class="learningimage">
+					<img src="life-learning.jpeg">
+				</div>
+				<div class="learning">
+					<p>Category:Life Learning. By:Casey Wilson</p>
+				</div>
+				<div class="dateth">
+					<p>Feb 3,2015</p>
+				</div>
+			</div>
+		</div>
+			<div class="angularimage">
+				<img src="angularjs.jpg">
+			</div>
+		</div>
+	<div style="clear:both;"></div>
+		<!-- part4 -->
+		<div class="box1">
+		<div class="recent">
+			<p style="font-size:20px;"><a href="https://product-school-blog.herokuapp.com/posts/5"><b> Integrating Angular into the Rise.us website </b></a><p>
+		</div>
+		<div style="clear:both;"></div>
+		<div class ="right section">
+			<div class="anglurday">
+				<p> Angular is an awesome framework that creates standardization, clarity, and reusability in an app. I'm really excited to be integrating it.....<p>
+			</div>
+			<div class="comment">
+				<div class="learningimage">
+					<img src="life-learning.jpeg">
+				</div>
+				<div class="learning">
+					<p>Category:Life Learning. By:Casey Wilson</p>
+				</div>
+				<div class="dateth">
+					<p>Feb 3,2015</p>
+				</div>
+			</div>
+		</div>
+			<div class="angularimage">
+				<img src="angularjs.jpg">
+			</div>
+		</div>
+	<div style="clear:both;"></div>
+</div>
+	</body>

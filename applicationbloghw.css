@@ -19,25 +19,30 @@
 	border-radius: 30;
 	border: 2px solid red;
 	height: 18px;
-	margin-top: 0;
+	margin-right: 10px;
 	padding: 7;
+	margin-top: 20px;
 }
-#postsign{
+/*#postsign{
 	display: inline-block;
 	float: right;
 	margin-top: 25px;
 	font-size: 18px;
-	padding-right: 15px;
-}
+	padding-right: 20px;
+	width: 75%;
+	margin-left: 56%;
+}*/
 
 #post{
 	display: inline-block;
+	float: right;
 	color: rgba(0,0,0,0.7);	
 	border-radius: 35;
 	border: 2px solid black;
 	margin-right: 5px;
 	height: 18px;
 	padding: 7;
+	margin-top: 20px;
 }
 a{
 	text-decoration: none;
@@ -48,16 +53,21 @@ a{
 	display: inline-block;
 	float: left;
 	border: 0px;
-	width: 26%;
+	width: 23%;
 	height: 100%;
 }
 #remainingbody{
 	display: inline-block;
 	position: absolute;
-	margin-top: 70px;
+	margin-top: 80px;
 	text-align: left;
 	width: 50%;
 	height: 100%;
+	padding-top: 10px;
+}
+#featuredtext{
+	display: inline-block;
+	font-size: 35px;
 }
 .box{
 	border: 1px solid black;
@@ -90,6 +100,7 @@ a{
 	display: inline-block;
 	/*margin-left: 20;*/
 	text-align: left;
+	font-size: 20px;
 	font-family: 'droid serif', serif;
 }
 .comment{
@@ -117,6 +128,7 @@ a{
 }
 .recent{
 	display: inline-block;
+	font-size: 20px;
 	float: left;
 	text-align: left;
 }
@@ -128,17 +140,183 @@ a{
 }
 .angularimage > img {
 	display: inline-block;
-	width: 143;
-	margin-top: -106;
+	width: 21%;
+	margin-top: -98;
 	margin-left: 42;
 }
 .box1{
 	display: block;	
 	padding: 25px 0px;
 	border-bottom: 2px solid rgba(0,0,0,0.1);
+	width: 100%;
 }
 .rightsection{
 	display: inline-block;
 	width: 50%;
 
 }
+
+@media (max-width: 680px) and (min-width: 479px){
+	/*#postsign{
+		margin-top: 18px;
+		float: right;
+		width: 30%;
+		margin-left: 0%;
+	}*/
+	#sign{
+		font-size: 15px;
+		width: 20%;
+		height: 100%;
+	}
+	#post{
+		display: none;
+	}
+	#leftemptybox{
+	width: 20%;
+	}
+	.box {
+	width: 50%;
+	margin-bottom: 10;
+	margin-left: 160;
+	}
+	#mainimage img {
+	height: 250;
+	width: 450;
+	}
+	.angularimage img {
+		display: none;
+	}
+	#featuredtext{
+		width: 140%;
+		font-size: 25px;
+	}
+	.author{
+		width: 100%;
+	}
+	.comment{
+		width: 130%;
+	}
+	.firstday{
+		width: 130%;
+		font-size: 17px;
+	}
+	.box1{
+		padding: 0px 0px;
+		height: 38%;
+		width: 130%;
+	}
+	.recent{
+		font-size: 20px;
+	}
+	.anglurday{
+		width: 100%;
+	}
+}
+
+@media (max-width: 768px) and (min-width: 681px){
+	/*#postsign{
+		margin-top: 18px;
+		float: right;
+		width: 30%;
+		margin-left: 0%;
+	}
+	#post{
+		display: none;
+	}*/
+	#leftemptybox{
+		width: 18%;
+	}
+	.box {
+	width: 35%;
+	margin-bottom: 10;
+	margin-left: 180;
+	}
+	#mainimage img {
+	height: 300;
+	width: 500;
+	}
+	.angularimage img {
+		width: 27%;
+	margin-top: -130;
+	margin-left: 350;
+	}
+	#featuredtext{
+		width: 140%;
+		font-size: 25px;
+	}
+	.author{
+		width: 100%;
+	}
+	
+	.comment{
+		width: 130%;
+	}
+	.firstday{
+		width: 130%;
+		font-size: 17px;
+	}
+	.box1{
+		padding: 5px 0px;
+		height: 38%;
+		width: 130%;
+	}
+	.recent{
+		font-size: 20px;
+	}
+	.anglurday{
+		width: 70%;
+	}
+}
+
+@media (max-width: 1175px) and (min-width: 769px){
+	/*#postsign{
+		float: right;
+		width: 23%;
+		margin-left: 0%;
+		margin-top: 18px;
+	}*/
+	#leftemptybox{
+		width: 20%;
+	}
+	.box {
+	width: 35%;
+	margin-bottom: 10;
+	margin-left: 240;
+	}
+	#mainimage img {
+	height: 400;
+	width: 600;
+	}
+	.angularimage img {
+		width: 20%;
+	margin-top: -100;
+	margin-left: 440;
+	}
+	#featuredtext{
+		width: 140%;
+		font-size: 30px;
+	}
+	.author{
+		width: 100%;
+	}
+	
+	.comment{
+		width: 90%;
+	}
+	.firstday{
+		width: 100%;
+		font-size: 20px;
+	}
+	.box1{
+		padding: 10px 0px;
+		height: 38%;
+		width: 130%;
+	}
+	.recent{
+		font-size: 20px;
+	}
+	.anglurday{
+		width: 70%;
+	}
+}
+
